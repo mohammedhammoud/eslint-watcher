@@ -12,9 +12,7 @@
   "files": [
     "dist"
   ],
-  "bin": {
-    "esw": "./bin/cli.js"
-  },
+  "bin": "./bin/cli.js",
   "scripts": {
     "build": "yarn clean && tsc -p tsconfig.build.json",
     "clean": "rimraf dist",

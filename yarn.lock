@@ -7978,7 +7978,7 @@ __metadata:
     typescript-eslint: "npm:^8.2.0"
     yargs: "npm:^17.7.2"
   bin:
-    esw: ./bin/cli.js
+    watch-eslint: ./bin/cli.js
   languageName: unknown
   linkType: soft
 

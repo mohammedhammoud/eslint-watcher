@@ -25,10 +25,20 @@ npm install eslint watch-eslint --dev
 To start the ESLint watcher, use the following command:
 
 ```sh
-yarn esw
+yarn watch-eslint
 ```
 
 This command will watch your files and automatically run ESLint when changes are detected.
+
+### Viewing Options
+
+To see all available options for `watch-eslint`, use the `--help` flag:
+
+```sh
+yarn watch-eslint --help
+```
+
+This will display a list of all available options and their descriptions.
 
 ## Techniques Used
 
